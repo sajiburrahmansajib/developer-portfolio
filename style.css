@@ -11,8 +11,9 @@ h1 {
     color: crimson;
 }
 
-section {
+.flexiable {
     display: flex;
+    padding-bottom: 80px;
 }
 
 .half-width {
@@ -39,4 +40,46 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.think-big {
+    padding-top: 10px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.last {
+    box-shadow: 5px 5px 40px rgb(160, 138, 138);
+    width: 80%;
+    margin: 40px;
+    padding: 15px 30px 110px 20px;
+    border-radius: 10px;
+
+
+}
+
+.ex-bg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+
+
+}
+
+.color {
+    color: orange;
+}
+
+#full {
+    border-left: 7px solid orangered;
+}
+
+#mini {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
